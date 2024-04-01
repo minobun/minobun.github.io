@@ -13,12 +13,12 @@ export default function ContentCard({ props }: { props: CardType }) {
                         {imagePath && imageCaption &&
                             <Image src={imagePath} alt={imageCaption} />
                         }
-                        {contents.map((content) => (<Text>{content}</Text>))}
+                        {contents.map((content, index) => (<Text key={index}>{content}</Text>))}
                     </Stack>
                 }
                 {tag === "list" &&
                     <List>
-                        {contents.map((content) => (<ListItem>{content}</ListItem>))}
+                        {contents.map((content, index) => (<ListItem key={index}>{content}</ListItem>))}
                     </List>
                 }
             </CardBody>
