@@ -34,16 +34,17 @@ export default function Home() {
                 title: "スキル",
                 contents: [
                     "AtCoder水色（2021年時点、使用言語：C++）",
-                    "TypeScript 半年間の実務経験",
-                    "React 半年間の実務経験",
-                    "Next.js 半年間の実務経験",
-                    "Java 半年間の実務経験",
+                    "TypeScript 2024/03-現在",
+                    "React 2024/03-現在",
+                    "Next.js 2024/03-現在",
+                    "Java 2023/01-2023/04",
                 ]
             },
             {
                 tag: "list",
                 title: "資格",
                 contents: [
+                    "AZ-204 2024年取得",
                     "AZ-500 2024年取得",
                     "Java Silver 2023年取得",
                     "英検1級 2023年取得",
