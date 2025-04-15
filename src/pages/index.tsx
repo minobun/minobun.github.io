@@ -46,6 +46,7 @@ export default function Home() {
                 tag: "list",
                 title: "資格",
                 contents: [
+                    "AZ-400 2025年取得",
                     "AZ-204 2024年取得",
                     "AZ-500 2024年取得",
                     "情報処理安全確保支援士試験 2024年合格",
